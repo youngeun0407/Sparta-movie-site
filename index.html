@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>내배캠 최고 평점 영화 콜렉션</title>
+    <link rel="stylesheet" href="./as.css">
+    <script src="./as.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="a">내배캠 최고 평점 영화 콜렉션</h1>
+    </header>
+    <div class="search">
+        <label>영화 검색 : </label>
+        <input type="text" id="search_input" placeholder="영화 제목으로 검색하세요." onkeypress="if(event.keyCode === 13) {find_movie()}" autofocus>
+        <button id="search_btn" onclick={find_movie()}>검색</button>
+    </div>
+    <div class="card_section">
+    </div>
+</body>
+
+</html>
